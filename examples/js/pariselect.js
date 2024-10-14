@@ -5,7 +5,7 @@ let map;
   map.addGoogleMutant();
 
   map.whenReady(function() {
-    img = L.distortableImageOverlay('ixample.jpg', {
+    img = L.distortableImageOverlay('example.png', {
       corners: [
         L.latLng(48.62, 1.24),
         L.latLng(48.62, 1.2),
