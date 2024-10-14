@@ -5,7 +5,7 @@ let map;
   map.addGoogleMutant();
 
   map.whenReady(function() {
-    img = L.distortableImageOverlay('dbrein_tt_n.png', {
+    img = L.distortableImageOverlay('ixemple.jpg', {
       corners: [
         L.latLng(48.62, 1.24),
         L.latLng(48.62, 1.2),
