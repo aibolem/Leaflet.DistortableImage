@@ -7,7 +7,7 @@ let map;
   map.whenReady(function() {
     img = L.distortableImageOverlay('dbrein_tt_n.png', {
       corners: [
-        L.latLng(51.52, 1.24),
+        L.latLng(48.62, 1.24),
         L.latLng(48.62, 1.2),
         L.latLng(48.600, 1.24),
         L.latLng(48.600, 1.2),
