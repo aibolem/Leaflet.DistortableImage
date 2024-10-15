@@ -5,16 +5,16 @@
 let map;
 
 (function() {
-  map = L.map('map').setView([48.675, 1.183], 3);
+  map = L.map('map').setView([51.505, -0.09], 13);
   map.addGoogleMutant();
 
   map.whenReady(function() {
-    img = L.distortableImageOverlay('example.png', {
+    img = L.distortableImageOverlay('example.jpg', {
       corners: [
-        L.latLng(48.62, 1.24),
-        L.latLng(48.62, 1.2),
-        L.latLng(48.600, 1.24),
-        L.latLng(48.600, 1.2),
+        L.latLng(51.52, -0.14),
+        L.latLng(51.52, -0.10),
+        L.latLng(51.50, -0.14),
+        L.latLng(51.50, -0.10),
       ],
       mode: 'lock',
     });
