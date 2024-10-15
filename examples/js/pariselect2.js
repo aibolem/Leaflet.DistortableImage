@@ -32,6 +32,44 @@ let map;
       suppressToolbar: true,
     });
 
+       img3 = L.distortableImageOverlay('ibm.png', {
+      corners: [
+        L.latLng(48.690941, 2.122176),
+        L.latLng(48.700006, 2.328170),
+        L.latLng(48.612011, 2.126296),
+        L.latLng(48.597481, 2.409194),
+      ],
+      actions: [
+        L.DistortAction,
+        L.FreeRotateAction,
+        L.LockAction,
+        L.OpacityAction,
+        L.DeleteAction,
+        L.StackAction,
+      ],
+    });
+    img4 = L.distortableImageOverlay('raibm.png', {
+      actions: [
+        L.ScaleAction,
+        L.DistortAction,
+        L.RotateAction,
+        L.FreeRotateAction,
+        L.LockAction,
+        L.OpacityAction,
+        L.DeleteAction,
+        L.StackAction,
+      ],
+      corners: [
+        L.latLng(48.668273, 2.649520),
+        L.latLng(48.663738, 2.932418),
+        L.latLng(48.503848, 2.601455),
+        L.latLng(48.502028, 2.871993),
+      ],
+    });
+    imgGroup = L.distortableCollection().addTo(map);
+
+    /* TODO: make an addLayers func */
+
     imgGroup = L.distortableCollection().addTo(map);
 
     /* TODO: make an addLayers func */
