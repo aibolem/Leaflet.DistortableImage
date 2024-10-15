@@ -1,3 +1,7 @@
+// new 48.849801, 2.343920
+// old 48.675, 1.183
+// blond 
+
 let map;
 
 (function() {
