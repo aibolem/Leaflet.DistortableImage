@@ -9,7 +9,7 @@ let map;
   map.addGoogleMutant();
 
   map.whenReady(function() {
-    img = L.distortableImageOverlay('example.jpg', {
+    img = L.distortableImageOverlay('ibm.png', {
       corners: [
         L.latLng(51.52, -0.14),
         L.latLng(51.52, -0.10),
@@ -20,7 +20,7 @@ let map;
     });
 
     // create a second image
-    img2 = L.distortableImageOverlay('example.jpg', {
+    img2 = L.distortableImageOverlay('raibm.png', {
       corners: [
         L.latLng(51.51, -0.20),
         L.latLng(51.51, -0.16),
@@ -31,7 +31,7 @@ let map;
       suppressToolbar: true,
     });
 
-    img3 = L.distortableImageOverlay('example.jpg', {
+    img3 = L.distortableImageOverlay('ibm.png', {
       corners: [
         L.latLng(51.50, -0.13),
         L.latLng(51.50, -0.09),
@@ -48,7 +48,7 @@ let map;
       ],
     });
 
-    img4 = L.distortableImageOverlay('example.jpg', {
+    img4 = L.distortableImageOverlay('raibm.png', {
       actions: [
         L.ScaleAction,
         L.DistortAction,
