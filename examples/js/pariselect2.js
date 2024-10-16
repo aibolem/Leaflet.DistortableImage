@@ -17,6 +17,16 @@ let map;
         L.latLng(48.806053, 2.226890),
         L.latLng(48.805148, 2.423613),
       ],
+            actions: [
+        L.ScaleAction,
+        L.DistortAction,
+        L.RotateAction,
+        L.FreeRotateAction,
+        L.LockAction,
+        L.OpacityAction,
+        L.DeleteAction,
+        L.StackAction,
+      ],
       mode: 'lock',
     });
 
@@ -28,8 +38,17 @@ let map;
         L.latLng(48.809671, 2.501548),
         L.latLng(48.815775, 2.642310),
      ],
-      mode: 'freeRotate',
-      suppressToolbar: true,
+      actions: [
+        L.ScaleAction,
+        L.DistortAction,
+        L.RotateAction,
+        L.FreeRotateAction,
+        L.LockAction,
+        L.OpacityAction,
+        L.DeleteAction,
+        L.StackAction,
+      ],
+            mode: 'lock',
     });
 
        img3 = L.distortableImageOverlay('ibm.png', {
