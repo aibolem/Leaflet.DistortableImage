@@ -74,8 +74,6 @@ let map;
 
     /* TODO: make an addLayers func */
     imgGroup.addLayer(img);
-    imgGroup.addLayer(img4);
     imgGroup.addLayer(img2);
-    imgGroup.addLayer(img3);
   });
 })();
