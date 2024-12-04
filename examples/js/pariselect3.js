@@ -17,6 +17,8 @@ let map;
         L.latLng(48.806053, 2.226890),
         L.latLng(48.805148, 2.423613),
       ],
+              return{ opacity:0.5,}   
+                }    
       mode: 'lock',
 
     });
@@ -29,6 +31,8 @@ let map;
         L.latLng(48.806053, 2.226890),
         L.latLng(48.805148, 2.423613),
       ],
+              return{ opacity:0.5,}   
+                }    
             mode: 'lock',
     });
 
