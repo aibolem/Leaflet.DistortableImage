@@ -19,7 +19,7 @@ let map;
       ],
   
           mode: 'lock',
-    mode: 'Opacity',
+    mode: 'opacity:0.5',
 
     });
 
@@ -32,7 +32,7 @@ let map;
         L.latLng(48.805148, 2.423613),
       ],
  mode: 'lock',
-            mode: 'Opacity',
+            mode: 'opacity:0.5',
     });
 
        img3 = L.distortableImageOverlay('ibm.png', {
