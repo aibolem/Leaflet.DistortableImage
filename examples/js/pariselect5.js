@@ -5,11 +5,11 @@
 let map;
 
 (function() {
-    map = L.map('map').setView([48.85, 2.35], 13);
+    map = L.map('map').setView([48.85, 2.35], 13,  opacity: 0.5);
     map.addGoogleMutant();
 
     map.whenReady(function() {
-        img = L.distortableImageOverlay('ibm.png',  opacity: 0.5, {
+        img = L.distortableImageOverlay('ibm.png', {
             corners: [
                 L.latLng(48.898449, 2.238906),
                 L.latLng(48.900255, 2.415374),
@@ -22,7 +22,7 @@ let map;
         });
 
         // create a second image
-        img2 = L.distortableImageOverlay('raibm.png',  opacity: 0.5, {
+        img2 = L.distortableImageOverlay('raibm.png', {
             corners: [
                 L.latLng(48.898449, 2.238906),
                 L.latLng(48.900255, 2.415374),
