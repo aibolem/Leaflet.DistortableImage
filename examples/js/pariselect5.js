@@ -5,8 +5,22 @@
 let map;
 
 (function() {
-    map = L.map('map').setView([48.85, 2.35], 13,  opacity: 0.5);
+    map = L.map('map').setView([48.85, 2.35], 13);
     map.addGoogleMutant();
+
+    //imageLayer.setOpacity( 0.5);
+
+    function imageStyle(){
+
+        return{ opacity:0.5,}   
+                }       
+var imageBounds=[
+ [48.85, 2.35], 13
+ ]
+    
+var imageLayer=L.imageOverlay(imageUrl,imageBounds).addTo(map);
+    
+//imageLayer.setOpacity( 0.5);
 
     map.whenReady(function() {
         img = L.distortableImageOverlay('ibm.png', {
