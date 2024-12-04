@@ -9,31 +9,27 @@ let map;
     map.addGoogleMutant();
 
     map.whenReady(function() {
-        img = L.distortableImageOverlay('ibm.png', {
+        img = L.distortableImageOverlay('ibm.png',  opacity: 0.5, {
             corners: [
                 L.latLng(48.898449, 2.238906),
                 L.latLng(48.900255, 2.415374),
                 L.latLng(48.806053, 2.226890),
                 L.latLng(48.805148, 2.423613),
             ],
-            return {
-                opacity: 0.5,
-            }
+
             mode: 'lock',
 
         });
 
         // create a second image
-        img2 = L.distortableImageOverlay('raibm.png', {
+        img2 = L.distortableImageOverlay('raibm.png',  opacity: 0.5, {
             corners: [
                 L.latLng(48.898449, 2.238906),
                 L.latLng(48.900255, 2.415374),
                 L.latLng(48.806053, 2.226890),
                 L.latLng(48.805148, 2.423613),
             ],
-            return {
-                opacity: 0.5,
-            }
+
             mode: 'lock',
         });
 
