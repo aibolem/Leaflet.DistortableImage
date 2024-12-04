@@ -18,7 +18,6 @@ let map;
         L.latLng(48.805148, 2.423613),
       ],
       mode: 'lock',
-      L.imageOverlay(imageUrl, imageBounds, {opacity: 0.5}).addTo(map);
 
     });
 
@@ -30,7 +29,6 @@ let map;
         L.latLng(48.806053, 2.226890),
         L.latLng(48.805148, 2.423613),
       ],
-      L.imageOverlay(imageUrl, imageBounds, {opacity: 0.5}).addTo(map);
             mode: 'lock',
     });
 
