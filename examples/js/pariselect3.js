@@ -74,5 +74,8 @@ let map;
     /* TODO: make an addLayers func */
     imgGroup.addLayer(img);
     imgGroup.addLayer(img2);
+
+L.imageOverlay(imageUrl, imageBounds, {opacity: 0.5}).addTo(map);
+
   });
 })();
