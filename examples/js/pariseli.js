@@ -25,10 +25,10 @@ let map;
     // create a second image
     img2 = L.distortableImageOverlay('raibm.png', {
       corners: [
-        L.latLng(48.893841, 2.245331),
-        L.latLng(48.908285, 2.420769),
-        L.latLng(48.802567, 2.249107),
-        L.latLng(48.813759, 2.448063),
+        L.latLng(48.898130, 2.240524),
+        L.latLng(48.910993, 2.415619),
+        L.latLng(48.804828, 2.240524),
+        L.latLng(48.813646, 2.440338),
       ],
  mode: 'lock',
  
