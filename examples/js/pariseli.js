@@ -42,7 +42,7 @@ let map;
         L.latLng(48.80957673328024, 2.2140884399414067),
       ],
  mode: 'lock',
-      ],
+   
     });
     img4 = L.distortableImageOverlay('raibm.png', {
       actions: [
