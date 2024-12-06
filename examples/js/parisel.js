@@ -5,13 +5,6 @@
 
 let map;
 
-// cnew 48.85, 2.35, 3
-// new 48.849801, 2.343920, 3
-// old 48.675, 1.183, 3
-// blond setview 51.505, -0.09, 13
-
-let map;
-
 (function() {
   map = L.map('map').setView([48.85, 2.35], 13);
   map.addGoogleMutant();
