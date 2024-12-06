@@ -36,10 +36,10 @@ let map;
 
        img3 = L.distortableImageOverlay('t_db_map.png', {
       corners: [
-        L.latLng(48.910315, 2.214088),
-        L.latLng(48.910315, 2.443428),
-        L.latLng(48.809576, 2.443428),
-        L.latLng(48.809576, 2.214088),
+        L.latLng(48.910316, 2.214775),
+        L.latLng(48.908285, 2.443771),
+        L.latLng(48.807994, 2.213745),
+        L.latLng(48.807542, 2.437592),
       ],
  mode: 'lock',
    
