@@ -78,5 +78,20 @@ let map;
     imgGroup.addLayer(img);
     imgGroup.addLayer(img2);
 
+      ToggleTransparency = EditOverlayAction.extend({ 
+    options: { 
+      toolbarIcon: { 
+        html: '<i class="material-icons md-18">opacity</i>', 
+        tooltip: 'Toggle Transparency' 
+      } 
+    }, 
+  
+    addHooks: function() { 
+      var editing = this._overlay.editing; 
+  
+      editing._toggleTransparency(); 
+      this.disable(); 
+    } 
+
   });
 })();
