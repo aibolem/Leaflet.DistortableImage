@@ -12,10 +12,10 @@ let map;
   map.whenReady(function() {
     img = L.distortableImageOverlay('ibm.png', {
       corners: [
-        L.latLng(48.895647, 2.186279),
-        L.latLng(48.930845, 2.435532),
-        L.latLng(48.765015, 2.212029),
-        L.latLng(48.802793, 2.478447),
+        L.latLng(48.879393, 2.167783),
+        L.latLng(48.940881, 2.405920),
+        L.latLng(48.750077, 2.220955),
+        L.latLng(48.819298, 2.480421),
       ],
   
           mode: 'lock',
