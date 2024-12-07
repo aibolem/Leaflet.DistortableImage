@@ -54,6 +54,11 @@
             format: 'image/png',
             transparent: true
         });		
+
+	   </script>-->
+
+	  <script type="text/JavaScript">
+
         
        var historic_seattle = new L.tileLayer.wms('http://demo.lizardtech.com/lizardtech/iserv/ows', {
             layers: 'Seattle1890',
@@ -61,16 +66,19 @@
             format: 'image/png',
             transparent: true
         });	
-        
+	  </script>-->
+
+	  <script type="text/JavaScript">
+
        
         var map = new L.map('map', {
-            center: new L.LatLng(47.59, -122.30), 
+            center: new L.LatLng(48.856301, 2.321205), 
             zoom: 12,
-            layers: [washington, historic_seattle],
+            layers: [paris, hjarnvag],
             zoomControl: true
         });
 
-		</script>-->
+		</script>
 	  
 <script type="text/JavaScript">
 
