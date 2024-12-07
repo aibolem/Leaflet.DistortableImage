@@ -48,39 +48,28 @@
 
 	<script type="text/JavaScript">       
     //Create the map
-       var washington = new L.tileLayer.wms('https://archive.org/download/dbrein_tt_n/dbrein_tt_n.png', {
-            layers: 'dbrein_tt_n',
+       var paris = new L.tileLayer.wms('https://archive.org/download/dbrein_tt_n/dbrein_tt_n.png', {
+            layers: 'paris',
             maxZoom: 18,
             format: 'image/png',
             transparent: true
         });		
 
-	   </script>
-
-	 <script type="text/JavaScript">
-
         
-       var historic_seattle = new L.tileLayer.wms('https://archive.org/download/2-n_20241202/2_n.png', {
-            layers: '2_n',
+       var railways = new L.tileLayer.wms('https://archive.org/download/2-n_20241202/2_n.png', {
+            layers: 'railways',
             maxZoom: 18,
             format: 'image/png',
             transparent: true
         });	
-	  </script>
-
-	  <script type="text/JavaScript">
 
        
         var map = new L.map('map', {
             center: new L.LatLng(48.856301, 2.321205), 
             zoom: 12,
-            layers: [dbrein_tt_n, 2_n],
+            layers: [paris, railways],
             zoomControl: true
         });
-
-		</script>
-	  
-<script type="text/JavaScript">
 
     //Create the opacity controls
         var higherOpacity = new L.Control.higherOpacity();
@@ -92,10 +81,10 @@
     
     //Specify the layer for which you want to modify the opacity. Note that the setOpacityLayer() method applies to all the controls.
     //You only need to call it once. 
-        opacitySlider.setOpacityLayer(dbrein_tt_n);
+        opacitySlider.setOpacityLayer(paris);
         
     //Set initial opacity to 0.5 (Optional)
-        dbrein_tt_n.setOpacity(0.5);
+        paris.setOpacity(0.5);
 	</script>
   </body>
 </html>
