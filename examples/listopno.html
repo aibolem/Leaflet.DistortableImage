@@ -58,7 +58,7 @@
 
 		// add image layer
 
-		    var paris = 'https://archive.org/download/dbrein_tt_n/dbrein_tt_n.png',
+		    var paris = new L.imageOverlay ('https://archive.org/download/dbrein_tt_n/dbrein_tt_n.png'),
     imageBounds = [[48.895647, 2.186279], [48.930845, 2.435532]];
 L.imageOverlay(paris, imageBounds).addTo(map);
 
