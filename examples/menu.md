@@ -1,9 +1,9 @@
 
-archive.html
-archiveblondon.html
-archiveparlis.html
-archives.html
-dbarp.html
+'archive.html'
+'archiveblondon.html'
+'archiveparlis.html'
+'archives.html'
+'dbarp.html
 dbarp2.html
 example.jpg
 example.png
