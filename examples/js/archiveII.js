@@ -19,7 +19,7 @@ let sidebarOpen = false;
 let mapReconstructionMode = false; // map is reconstructed from json URL in this mode
 
 const setupMap = () => {
-  map = L.map('map').setView([48.850832  2.345517], 10);
+  map = L.map('map').setView([48.850755, 2.346051], 10);
   window.map = map; // make map global for debugging
 
   map.attributionControl.setPosition('bottomleft');
