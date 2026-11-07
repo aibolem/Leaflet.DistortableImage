@@ -49,6 +49,8 @@ https://aibolem.github.io/Leaflet.DistortableImage/examples/pariselect5.html
 
 https://aibolem.github.io/Leaflet.DistortableImage/examples/pariseli.html
 
+https://aibolem.github.io/Leaflet.DistortableImage/examples/pariseli_new.html
+
 https://aibolem.github.io/Leaflet.DistortableImage/examples/pariselis.html
 
 https://aibolem.github.io/Leaflet.DistortableImage/examples/select.html
