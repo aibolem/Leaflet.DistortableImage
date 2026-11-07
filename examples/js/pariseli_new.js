@@ -59,10 +59,10 @@ let map;
         L.StackAction,
       ],
       corners: [
-        L.latLng(48.668273, 2.649520),
-        L.latLng(48.663738, 2.932418),
-        L.latLng(48.503848, 2.601455),
-        L.latLng(48.502028, 2.871993),
+        L.latLng(49.053167, 1.996765), 
+        L.latLng(49.054967, 2.686157), 
+        L.latLng(48.599313, 2.999512), 
+        L.latLng(48.601130, 2.688904),
       ],
     });
     imgGroup = L.distortableCollection().addTo(map);
