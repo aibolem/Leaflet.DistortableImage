@@ -12,10 +12,10 @@ let map;
   map.whenReady(function() {
     img = L.distortableImageOverlay('dbrein_tt_n.png', {
       corners: [
-        L.latLng(48.895647, 2.186279),
-        L.latLng(48.930845, 2.435532),
-        L.latLng(48.765015, 2.212029),
-        L.latLng(48.802793, 2.478447),
+        L.latLng(48.896775, 2.069550), 
+        L.latLng(49.013554, 2.432098), 
+        L.latLng(48.711353, 2.206879), 
+        L.latLng(48.829017, 2.570114),
       ],
   
           mode: 'lock',
@@ -36,10 +36,10 @@ let map;
 
        img3 = L.distortableImageOverlay('t_db_map_bb.png', {
       corners: [
-        L.latLng(48.910316, 2.214775),
-        L.latLng(48.908285, 2.443771),
-        L.latLng(48.807994, 2.213745),
-        L.latLng(48.807542, 2.437592),
+        L.latLng(48.918877, 2.218744), 
+        L.latLng(48.909247, 2.463679), 
+        L.latLng(48.811100, 2.208943), 
+        L.latLng(48.801449, 2.453878),
       ],
  mode: 'lock',
    
