@@ -6,7 +6,7 @@
 let map;
 
 (function() {
-  map = L.map('map').setView([48.856301, 2.321205], 8);
+  map = L.map('map').setView([48.856301, 2.321205], 10);
   map.addGoogleMutant();
 
   map.whenReady(function() {
@@ -25,7 +25,10 @@ let map;
     // create a second image
     img2 = L.distortableImageOverlay('paris-map-giant_transparent.png', {
       corners: [
-        L.latLng(49.053167, 1.996765),   
+        
+//      L.latLng(49.053167, 1.996765),   RESERV
+
+        L.latLng(49.053167, 2.999512),   
         L.latLng(49.054967, 2.686157),
         L.latLng(48.599313, 2.999512),
         L.latLng(48.601130, 2.688904),
