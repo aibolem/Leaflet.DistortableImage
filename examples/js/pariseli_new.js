@@ -26,10 +26,12 @@ let map;
     img2 = L.distortableImageOverlay('paris-map-giant_transparent.png', {
       corners: [
         
-        L.latLng(49.048677, 1.995428),
-        L.latLng(49.053153, 2.682043),
-        L.latLng(48.597521, 2.687509),
-        L.latLng(48.601123, 2.687509),
+//      L.latLng(49.053167, 1.996765),   RESERV
+
+        L.latLng(49.053167, 2.999512),   
+        L.latLng(49.054967, 2.686157),
+        L.latLng(48.599313, 2.999512),
+        L.latLng(48.601130, 2.688904),
       ],
  mode: 'lock',
  
@@ -57,10 +59,10 @@ let map;
         L.StackAction,
       ],
       corners: [
-        L.latLng(49.048677, 1.995428),
-        L.latLng(49.053153, 2.682043),
-        L.latLng(48.597521, 2.687509),
-        L.latLng(48.601123, 2.687509),
+        L.latLng(49.053167, 1.996765), 
+        L.latLng(49.054967, 2.686157), 
+        L.latLng(48.599313, 2.999512), 
+        L.latLng(48.601130, 2.688904),
       ],
     });
     imgGroup = L.distortableCollection().addTo(map);
