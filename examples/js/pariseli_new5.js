@@ -25,10 +25,10 @@ let map;
     // create a second image
     img2 = L.distortableImageOverlay('paris-map-giant_transparent.png', {
       corners: [
-        L.latLng(48.898130, 2.240524),
-        L.latLng(48.910993, 2.415619),
-        L.latLng(48.804828, 2.240524),
-        L.latLng(48.813646, 2.440338),
+        L.latLng(49.048669, 2.005005),
+        L.latLng(49.048669, 2.683411),
+        L.latLng(48.602040, 2.683411),
+        L.latLng(48.602040, 2.005005),
       ],
  mode: 'lock',
  
