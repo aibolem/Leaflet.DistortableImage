@@ -6,7 +6,7 @@
 let map;
 
 (function() {
-  map = L.map('map').setView([48.856301, 2.321205], 12);
+  map = L.map('map').setView([48.856301, 2.321205], 10);
   map.addGoogleMutant();
 
   map.whenReady(function() {
@@ -27,8 +27,8 @@ let map;
       corners: [
         L.latLng(49.048669, 2.005005),
         L.latLng(49.048669, 2.683411),
-        L.latLng(48.602040, 2.683411),
         L.latLng(48.602040, 2.005005),
+        L.latLng(48.602040, 2.683411),
       ],
  mode: 'lock',
  
