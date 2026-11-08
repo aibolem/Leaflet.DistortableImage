@@ -6,7 +6,7 @@
 let map;
 
 (function() {
-  map = L.map('map').setView([48.856301, 2.321205], 12);
+  map = L.map('map').setView([48.856301, 2.321205], 10);
   map.addGoogleMutant();
 
   map.whenReady(function() {
